@@ -31,7 +31,7 @@ body
     min-width: 100%;
     position: fixed;
 	padding: 20px 0;
-    /* top: 0; */
+    top: 0;
     z-index: 1000;
 }
 .logo
@@ -65,33 +65,59 @@ header .nav1 ul li
 }
 header .nav1 ul  .download
 {
-	padding: 7px 17px 7px 0;
+	padding: 4px 8px ;
 	border: 1px solid #000;
-	border-radius: 10px;
-	/* background-color: var(--main-color); */
+	margin-left: 0;
 	text-align: center;
 	transition: .9s;
+	margin-left: 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-transition: .9s;
+	-moz-transition: .9s;
+	-ms-transition: .9s;
+	-o-transition: .9s;
 }
-
+header .nav1 ul  .download 
+{
+	margin-top: 14px;
+}
+header .nav1 ul  .download a
+{
+	margin-left: 0;
+	letter-spacing: 1px;
+}
+header .nav1 ul  .download:hover a
+{
+	text-decoration: none !important;
+	border-bottom: none;
+	color: #FFF !important;
+}
 header .nav1 ul li a
 {
 	font-size: 1.1em;
 	color: #000;
 	text-decoration: none;
 	text-transform: capitalize;
+	margin-bottom: 10px;
 	margin-left: 20px;
 	transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
 }
 header .nav1 ul li a:hover
 {
 	border-bottom: 1px solid var(--main-color) ;
 	color: var(--main-color);
-
 }
 header .nav1 ul  .download:hover 
 {
 	background-color: var(--main-color);
-	
 }
 header .nav1 ul  .download:hover a
 {
